@@ -1,0 +1,19 @@
+{
+    "name": "romanf/parkman",
+    "type": "project",
+    "description": "Test project for ParkMan. Parkman displays parking garages information on the map..",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src",
+            "Parkman\\App\\" : "routes"
+        }
+    }
+}
